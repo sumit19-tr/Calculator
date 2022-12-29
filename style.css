@@ -1,0 +1,78 @@
+
+.cal
+{
+    /* border: 2px solid black; */
+    margin-left: -8px;
+    margin-top: -8px;
+    margin-right: -8px;
+    margin-bottom: -4px;
+    height: 630px;
+    background-image: url("calculater_background.png"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.out-border
+{
+    height: auto;
+    width: 30%;
+    /* border: 1px solid red; */
+    margin-top: 1%;
+    margin-left: 35%;
+    overflow: hidden;
+    border-radius: 2%;
+    background-color: white;
+}
+
+.textf input
+{
+    height: 180px;
+    width: 100%;
+    /* border: 1px solid red; */
+    background-color: red;
+    /* border: transparent; */
+    border: none;
+}
+.textf input:focus
+{
+    outline: none;
+}
+.out-border .textf input
+{
+    height: 90px;
+    width: 100%;
+    /* border: 1px solid rgb(55, 0, 255); */
+    font-size: 55px;
+    text-align: right;
+    /* font-weight: bolder; */
+    color: #9c9c9c;
+    font-family: 'Alfa Slab One', cursive;
+}
+.out-border .btns
+{
+    height: 63%;
+    width: auto;
+    /* border: 1px solid rgb(113, 17, 133); */
+    margin: 10px;
+    
+}
+.butn
+{
+    border-radius: 50%;
+    font-size: 30px;
+    padding: 30px;
+    padding-bottom: 19px;
+    padding-top: 21px;
+    margin-top: 15px;
+    margin-left: 10px;
+    border: transparent;
+    background-color: #e7e4e4;
+    color: #6b6b6b;
+    font-family: 'Alfa Slab One', cursive;
+    /* cursor: pointer; */
+}
+.butn:hover
+{
+    background-color: red;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
